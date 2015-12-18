@@ -14,6 +14,8 @@
 		9A32A9321C23AD7200ACF704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A32A9301C23AD7200ACF704 /* LaunchScreen.storyboard */; };
 		9A32A93D1C23AD7200ACF704 /* shakeSoundDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A32A93C1C23AD7200ACF704 /* shakeSoundDemoTests.swift */; };
 		9A32A9481C23AD7300ACF704 /* shakeSoundDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A32A9471C23AD7300ACF704 /* shakeSoundDemoUITests.swift */; };
+		9A32A9561C23ADAC00ACF704 /* shakesound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9A32A9551C23ADAC00ACF704 /* shakesound.wav */; };
+		9A32A9581C23ADB900ACF704 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A32A9571C23ADB900ACF704 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9A32A9431C23AD7200ACF704 /* shakeSoundDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shakeSoundDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A32A9471C23AD7300ACF704 /* shakeSoundDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeSoundDemoUITests.swift; sourceTree = "<group>"; };
 		9A32A9491C23AD7300ACF704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A32A9551C23ADAC00ACF704 /* shakesound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shakesound.wav; sourceTree = "<group>"; };
+		9A32A9571C23ADB900ACF704 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A32A9581C23ADB900ACF704 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		9A32A91B1C23AD7200ACF704 = {
 			isa = PBXGroup;
 			children = (
+				9A32A9571C23ADB900ACF704 /* AVFoundation.framework */,
 				9A32A9261C23AD7200ACF704 /* shakeSoundDemo */,
 				9A32A93B1C23AD7200ACF704 /* shakeSoundDemoTests */,
 				9A32A9461C23AD7300ACF704 /* shakeSoundDemoUITests */,
@@ -102,6 +108,7 @@
 				9A32A92B1C23AD7200ACF704 /* Main.storyboard */,
 				9A32A92E1C23AD7200ACF704 /* Assets.xcassets */,
 				9A32A9301C23AD7200ACF704 /* LaunchScreen.storyboard */,
+				9A32A9551C23ADAC00ACF704 /* shakesound.wav */,
 				9A32A9331C23AD7200ACF704 /* Info.plist */,
 			);
 			path = shakeSoundDemo;
@@ -235,6 +242,7 @@
 				9A32A9321C23AD7200ACF704 /* LaunchScreen.storyboard in Resources */,
 				9A32A92F1C23AD7200ACF704 /* Assets.xcassets in Resources */,
 				9A32A92D1C23AD7200ACF704 /* Main.storyboard in Resources */,
+				9A32A9561C23ADAC00ACF704 /* shakesound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
